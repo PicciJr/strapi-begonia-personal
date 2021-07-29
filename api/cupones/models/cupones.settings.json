@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupones",
+  "info": {
+    "name": "Cupones"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "codigo": {
+      "type": "string"
+    },
+    "aplicado": {
+      "type": "boolean"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "porcentaje",
+        "fijo"
+      ]
+    },
+    "cantidad": {
+      "type": "integer"
+    }
+  }
+}
