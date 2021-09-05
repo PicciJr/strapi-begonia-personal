@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_producto_variantes",
+  "info": {
+    "name": "variantes",
+    "icon": "cubes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variante": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}

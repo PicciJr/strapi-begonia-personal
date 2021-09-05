@@ -15,9 +15,6 @@
     "titulo": {
       "type": "string"
     },
-    "es_configurable": {
-      "type": "boolean"
-    },
     "precio": {
       "type": "decimal"
     },
@@ -39,6 +36,16 @@
     },
     "descripcion": {
       "type": "richtext"
+    },
+    "variantes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "producto.variante"
+    },
+    "Relacionados": {
+      "type": "component",
+      "repeatable": true,
+      "component": "producto.relacionados"
     }
   }
 }
