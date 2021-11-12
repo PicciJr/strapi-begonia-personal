@@ -46,6 +46,16 @@
       "type": "component",
       "repeatable": true,
       "component": "producto.relacionados"
+    },
+    "tipo_producto": {
+      "type": "enumeration",
+      "enum": [
+        "Encargo",
+        "Lamina",
+        "Original"
+      ],
+      "default": "Lamina",
+      "required": true
     }
   }
 }
