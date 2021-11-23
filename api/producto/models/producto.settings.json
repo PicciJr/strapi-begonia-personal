@@ -56,6 +56,12 @@
       ],
       "default": "Lamina",
       "required": true
+    },
+    "orden_aparicion": {
+      "type": "integer",
+      "required": false,
+      "unique": true,
+      "default": 9999
     }
   }
 }
