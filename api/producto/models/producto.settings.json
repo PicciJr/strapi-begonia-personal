@@ -61,7 +61,7 @@
       "type": "integer",
       "required": false,
       "unique": false,
-      "default": 9999
+      "default": 999
     }
   }
 }
