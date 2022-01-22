@@ -62,6 +62,12 @@
       "required": false,
       "unique": false,
       "default": 999
+    },
+    "precio_min": {
+      "type": "decimal"
+    },
+    "precio_max": {
+      "type": "decimal"
     }
   }
 }
