@@ -68,6 +68,12 @@
     },
     "precio_max": {
       "type": "decimal"
+    },
+    "personalizacion_horoscopos": {
+      "type": "dynamiczone",
+      "components": [
+        "horoscopo.horoscopo"
+      ]
     }
   }
 }

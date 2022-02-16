@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Horoscopo",
+  "info": {
+    "name": "Horoscopo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

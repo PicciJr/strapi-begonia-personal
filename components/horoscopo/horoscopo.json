@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_horoscopo_horoscopos",
+  "info": {
+    "name": "horoscopo",
+    "icon": "church",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "horoscopos": {
+      "collection": "horoscopo"
+    }
+  }
+}
